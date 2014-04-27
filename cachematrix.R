@@ -6,6 +6,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
+    
     setMatrix <- function(m){
         x <<- m
         inv <<- NULL
